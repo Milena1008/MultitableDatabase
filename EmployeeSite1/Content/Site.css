@@ -1,0 +1,82 @@
+﻿body {
+    padding-top: 50px;
+    padding-bottom: 20px;
+    background-image:url(/images/triangles-1430105_1280.png);
+    background-size:cover;
+}
+
+/* Set padding to keep content from hitting the edges */
+.body-content {
+    padding-left: 15px;
+    padding-right: 15px;
+}
+
+/* Override the default bootstrap behavior where horizontal description lists 
+   will truncate terms that are too long to fit in the left column 
+*/
+.dl-horizontal dt {
+    white-space: normal;
+}
+
+/* Set width on the form input elements since they're 100% wide by default */
+input,
+select,
+textarea {
+    max-width: 280px;
+}
+
+/* my CSS*/
+
+.table tbody > tr > th{
+    border-top: 2px solid;
+    border-bottom: 2px solid;
+    border-color:black;
+    background-color:white;
+    opacity:0.6;
+    color:black;
+}
+
+.table tbody > tr > td{
+border-top: 1px solid;
+    border-bottom: 1px solid;
+    border-color:black;
+    background-color:white;
+    opacity:0.6;
+    color:black;
+    font:solid; 
+    color:black;
+}
+
+hr{
+    border-color:black;
+    position:relative;
+}
+
+a{
+    color: black;
+    font-size: 100%;
+}
+h2{
+    color:black;
+}
+p{
+    color: black;
+}
+ dt{
+    font-size: 140%;
+    color: black;
+}
+ dd{
+  color:black;
+        font-size:100%;
+ }
+ h4{
+     color:black;
+        font-size:160%;
+ }
+ .control-label{
+     color: black;
+ }
+ h3, .h3{
+     color: red;
+ }
